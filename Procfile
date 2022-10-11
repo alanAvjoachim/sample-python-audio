@@ -1,1 +1,1 @@
-web: gunicorn wsgi:app  
+web: gunicorn py -m venv env  .\env\Scripts\activate:app  
