@@ -1,1 +1,1 @@
-web: gunicorn py -m venv env  .\env\Scripts\activate:app  
+web: gunicorn app:app --log-file=-
